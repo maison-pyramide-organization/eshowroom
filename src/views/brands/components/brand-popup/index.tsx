@@ -1,5 +1,5 @@
 import s from "./_s.module.scss";
-import truncateText from "@/utils/truncateText";
+// import truncateText from "@/utils/truncateText";
 // @ts-ignore
 import CloseIcon from "@a/icons/close-icon.svg?react";
 
