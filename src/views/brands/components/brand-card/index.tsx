@@ -2,7 +2,7 @@ import s from "./_s.module.scss";
 
 const BrandCard = (props: any) => {
   const { brand, openPopup } = props;
-  const joorAccessLink = "https://jooraccess.com/sign_in";
+  // const joorAccessLink = "https://jooraccess.com/sign_in";
 
   const handleClick = () => {
     openPopup(brand);
