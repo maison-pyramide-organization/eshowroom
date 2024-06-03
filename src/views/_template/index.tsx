@@ -1,6 +1,6 @@
-import s from "./_s.module.scss";
+// import s from "./_s.module.scss";
 
 const index = () => {
-    return <></>;
+  return <></>;
 };
 export default index;
