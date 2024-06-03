@@ -29,7 +29,7 @@ const brands = [
     category: "rtw",
     joorLink: "https://www.jooraccess.com/azziandosta",
     description:
-      "Azzi & Osta is known for their focus on ethics and sustainability and subscribes to slow fashion, producing high-quality garments that stand the test of time only on-demand, all in-house in their atelier in Beirut, therefore mitigating any surplus or waste",
+      "Azzi & Osta is known for their focus on ethics and sustainability and subscribes to slow fashion, producing high-quality garments that stand the test of time only on-demand, all in-house in their atelier in Beirut, therefore mitigating any surplus or waste.",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const brands = [
     category: "rtw",
     joorLink: "https://www.jooraccess.com/bouguessa",
     description:
-      "Bouguessa is an esteemed and elegant tailoring brand, aims to offer a minimalist wardrobe focused on clean cuts and impeccable attention to detail, designed for strong and sophisticated women",
+      "Bouguessa is an esteemed and elegant tailoring brand, aims to offer a minimalist wardrobe focused on clean cuts and impeccable attention to detail, designed for strong and sophisticated women.",
   },
   {
     id: 4,
@@ -99,7 +99,8 @@ const brands = [
     image: monica,
     category: "rtw",
     joorLink: "https://www.jooraccess.com/monicasordo",
-    description: "",
+    description:
+      "Monica Sordo is a line of collectable creations in fluid dialogue with design, artisanship and culture. Her creations are reminiscent of her Caribbean memories and deeply influenced by the minimalistic lines of her modern, Latin American heritage.",
   },
   {
     id: 11,
@@ -117,7 +118,7 @@ const brands = [
     category: "rtw",
     joorLink: "https://www.jooraccess.com/nafsikaskourti",
     description:
-      "Central Saint Martins graduate and Vogue Arabia/DDFC Fashion Prize finalist Nafsika Skourti continues to receive international recognition. This easily got the attention of top retailers leading up to her pieces being stocked in Harvey Nichols UK - MEA, Les Suites Paris, Piaff boutique and many more.Her designs are highly coveted by key industry figures as seen on HRH Queen Rania, DJs Simi Haze, M.I.A, Suzzie Bubbles. The designer has also been featured repeatedly in Dazed, i-D and Vogue UK, among others.",
+      "Nafsika Skourti exports the nuances and stories of their home. Through print, embroidery and ongoing textile development they create sharp separates, couture details and modern tailoring.",
   },
   {
     id: 13,
