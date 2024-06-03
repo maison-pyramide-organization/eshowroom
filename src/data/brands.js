@@ -118,7 +118,7 @@ const brands = [
     category: "rtw",
     joorLink: "https://www.jooraccess.com/nafsikaskourti",
     description:
-      "Nafsika Skourti exports the nuances and stories of their home. Through print, embroidery and ongoing textile development they create sharp separates, couture details and modern tailoring.",
+      "Nafsika Skourti is a directional upper contemporary brand that embraces both glamour and anti-glamour. Collections are built around an eclectic mix of references, research and textile development. We strive to translate our creative impulses into desirable closet friendly pieces that are cool, culturally relevant, and beautifully crafted.",
   },
   {
     id: 13,
