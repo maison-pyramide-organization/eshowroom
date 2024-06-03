@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .popup {
   background: white;
   width: clamp(200px, 70%, 850px);
@@ -34,9 +35,11 @@
   top: 16px;
   padding: 10px;
 }
+
 .closeBtn_icon {
   width: 20px;
 }
+
 .brandName {
   font-size: 40px;
   font-family: "Suisse";
@@ -57,6 +60,7 @@
     font-size: 14px;
   }
 }
+
 .popup a {
   margin-top: 48px;
   background-color: $yellow;
