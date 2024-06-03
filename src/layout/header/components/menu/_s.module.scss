@@ -1,0 +1,21 @@
+@use "@s/base" as *;
+//
+.menu {
+  height: 100vh;
+  padding-block: var(--header-height) 40px;
+  padding-inline: 24px;
+  background-color: $yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.menu li {
+  text-align: center;
+  padding-block: 32px;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+  font-family: "Suisse";
+}

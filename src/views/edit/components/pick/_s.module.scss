@@ -1,0 +1,38 @@
+@use "@s/base" as *;
+
+.pick {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pick img {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+.pick_brand {
+  margin-top: 24px;
+  font-family: "Suisse";
+  font-size: 16px;
+}
+.pick_name {
+  margin-top: 8px;
+  font-family: "GT Super Display";
+  font-size: 14px;
+}
+.pick_description {
+  margin: 20px 0px 24px;
+  font-size: 14px;
+  font-family: "Suisse";
+  font-weight: 500;
+}
+
+.pick a {
+  margin-top: auto;
+  background: $yellow;
+  font-size: 14px;
+  padding: 18px 32px;
+  width: 100%;
+  text-align: center;
+  font-family: "Suisse";
+  font-weight: 500;
+}

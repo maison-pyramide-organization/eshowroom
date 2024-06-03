@@ -4,6 +4,6 @@ Breakpoints
 ==============================
 */
 
-@custom-media --sm (width >= 480);
-@custom-media --md (width >= 768);
-@custom-media --lg (width >= 1024);
+@custom-media --sm (width <= 600px);
+@custom-media --md (width <= 1024px);
+// @custom-media --lg (width <= 1024);

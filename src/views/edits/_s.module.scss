@@ -1,0 +1,38 @@
+@use "@s/base" as *;
+//
+.title {
+  font-size: 40px;
+  font-family: "Suisse";
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  @media (--md) {
+    font-size: 30px;
+  }
+}
+
+.m {
+  margin-top: 80px;
+  @media (--md) {
+    margin-top: 40px;
+  }
+}
+
+.edits {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  @media (--md) {
+    gap: 40px;
+  }
+}
+
+.edits_item {
+  width: calc((100% - 2 * 80px) / 3);
+  @media (--md) {
+    width: calc((100% - 80px) / 2);
+  }
+  @media (--sm) {
+    width: 100%;
+  }
+}

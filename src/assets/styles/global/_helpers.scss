@@ -1,1 +1,17 @@
 //
+:root {
+  --header-height: 93px;
+}
+
+.p-w {
+  min-height: calc(100vh - 48px);
+  margin: var(--header-height) auto 80px;
+  padding: 40px 40px 0;
+  max-width: 1440px;
+  @media (--md) {
+    padding: 24px 24px 0;
+  }
+  @media (--sm) {
+    padding: 24px 16px 0;
+  }
+}

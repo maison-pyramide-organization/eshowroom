@@ -1,0 +1,131 @@
+@use "@s/base" as *;
+
+.footer {
+  padding-inline: 40px;
+  padding-block: 48px;
+  background: black;
+}
+
+.footer_t_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  @media (--sm) {
+    gap: 40px;
+  }
+}
+
+.footer_t_listItem {
+  flex-basis: calc((100% - 24px * 3) / 4);
+  color: white;
+  @media (--md) {
+    flex-basis: calc((100% - 48px) / 2);
+  }
+  @media (--ms) {
+    flexbasis: 100%;
+  }
+
+  & div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @media (--sm) {
+      margin-top: 24px;
+      gap: 16px;
+    }
+  }
+
+  & h3 {
+    font-size: 16px;
+    font-family: Suisse;
+    font-weight: 600;
+  }
+  & p {
+    font-size: 14px;
+    font-family: Suisse;
+    font-weight: 400;
+  }
+  & a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Suisse;
+    font-weight: 400;
+    display: block;
+  }
+}
+
+.footer_t_listItem:nth-of-type(4) {
+  @media (--sm) {
+    flex-basis: 100%;
+  }
+}
+
+.footer_input {
+  border: 1px solid white;
+  padding: 12px;
+  font-size: 14px;
+  font-family: Suisse;
+  font-weight: 400;
+  color: white;
+  background: transparent;
+  width: 100%;
+  &::placeholder {
+    color: white;
+  }
+}
+
+.footer_b {
+  border-top: 1px solid #ccc;
+  margin-top: 56px;
+  padding-top: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (--md) {
+    flex-direction: column;
+    margin-top: 48px;
+    padding-top: 48px;
+    gap: 24px;
+  }
+  & div {
+    display: flex;
+    gap: 96px;
+    width: 272px;
+    @media (--md) {
+      width: unset;
+      gap: 20px;
+    }
+  }
+
+  & p {
+    color: white;
+    font-size: 12px;
+    font-family: Suisse;
+    font-weight: 300;
+  }
+
+  & a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Suisse;
+    font-weight: 300;
+  }
+}
+
+.logo {
+  width: 300px;
+}
+
+.copyrights {
+  gap: 14px !important;
+  & p:nth-child(1) {
+    margin-left: auto;
+    @media (--md) {
+      margin-left: unset;
+    }
+  }
+}

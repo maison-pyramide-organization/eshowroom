@@ -1,0 +1,10 @@
+export { default as venus } from "./venus.png";
+export { default as towel } from "./towel-gown.png";
+export { default as suit } from "./red-suit.jpg";
+export { default as leather } from "./leather-bra.jpg";
+export { default as shiraz } from "./shiraz-chocker.png";
+export { default as strapless } from "./strapless-high.jpg";
+export { default as sultan } from "./sultan-bustier.png";
+export { default as atoms } from "./the-atoms-collection.jpg";
+export { default as tash } from "./Tash-Maxi.jpg";
+export { default as cover } from "./cover.png";

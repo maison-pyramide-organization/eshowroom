@@ -1,0 +1,25 @@
+.edit {
+  width: 100%;
+}
+.edit_media {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.edit_info {
+  margin-top: 28px;
+}
+
+.edit_info h3 {
+  font-family: "Suisse";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.edit_info p {
+  margin-top: 8px;
+  font-family: "GT Super Display";
+  font-weight: 400;
+  font-size: 14px;
+}

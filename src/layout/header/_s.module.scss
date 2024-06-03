@@ -1,0 +1,62 @@
+@use "@s/base" as *;
+//
+.header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.header_w {
+  height: var(--header-height);
+  display: flex;
+  margin-inline: auto;
+  padding: 24px 40px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  box-sizing: border-box;
+  @media (--md) {
+    padding: 24px 24px;
+  }
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  width: 152px;
+  gap: 40px;
+  @media (--sm) {
+    display: none;
+  }
+}
+
+.header nav a {
+  font-family: "Suisse";
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 120px;
+}
+.logo img {
+  width: 100%;
+  background-color: transparent;
+}
+
+.nav_r {
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+.menuIcon {
+  width: 40px;
+  display: none;
+  @media (--sm) {
+    display: block;
+  }
+}
