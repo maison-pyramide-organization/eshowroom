@@ -9,10 +9,10 @@ const Footer = () => {
       <div className={s.footer_t}>
         <ul className={s.footer_t_list}>
           <li className={s.footer_t_listItem}>
-            <h3>SUPPORT</h3>
+            <h3>CONTACT</h3>
             <div>
-              <a href="tel:+20 106 0091742" target="_blank">
-                +201060091742
+              <a href="tel:+33769170858" target="_blank">
+                +33 7 69 17 08 58
               </a>
 
               <a href="mailto:showroom@maisonpyramide.com" target="_blank">

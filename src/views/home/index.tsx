@@ -6,9 +6,10 @@ import aboutImg1 from "@a/images/about-image-1.png";
 import aboutImg2 from "@a/images/about-image-2.png";
 
 const VIDEO_LANDSCAPE =
-  "https://res.cloudinary.com/dhqpdvngy/video/upload/q_50/v1705626121/SHOWROOM_VIDEO_RESORT_SS24_copy_gdgrxr.mp4";
+  "https://res.cloudinary.com/dhqpdvngy/video/upload/q_60/v1725533298/H-Showroom_Video.mp4";
+
 const VIDEO_PORTRAIT =
-  "https://res.cloudinary.com/dhqpdvngy/video/upload/q_50/v1705626194/Mobile_Version_copy_xgsnio.mp4";
+  "https://res.cloudinary.com/dhqpdvngy/video/upload/q_60/v1725534168/V-Showroom_Video.mp4";
 
 const Home = () => {
   const mpRef = useRef<any>(null);
@@ -81,7 +82,7 @@ const Home = () => {
               target="_blank"
               href="https://jooraccess.com/sign_in"
             >
-              EXPLORE OUR BRANDS ON JOOR
+              EXPLORE OUR BRANDS
             </a>
           </div>
         </div>

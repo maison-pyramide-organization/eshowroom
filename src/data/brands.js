@@ -129,6 +129,24 @@ const brands = [
     description:
       "W.Salamoon & Sons is a family-owned high-end jewelry brand that offers both classic elegance and modern sophistication. With four generations of experience, they specialize in creating unique and exquisite pieces that showcase individuality and style.",
   },
+  // {
+  //   id: 14,
+  //   name: "Racil",
+  //   image: "",
+  //   category: "",
+  //   joorLink: "",
+  //   description:
+  //     "A London based tailoring brand, known for its unique detailing with a luxury quality product. The collections exude feminine sophistication with a touch of masculine edge, and teeter between the classic and the unexpected.",
+  // },
+  // {
+  //   id: 15,
+  //   name: "Sophie",
+  //   image: "",
+  //   category: "",
+  //   joorLink: "",
+  //   description:
+  //     " Sophie et Voilà, a Basque brand, has made its mark in the wedding dress market over the past decade. The brand offers timeless designs characterised by a mix of tradition and innovation.",
+  // },
 ];
 
 export default brands;
