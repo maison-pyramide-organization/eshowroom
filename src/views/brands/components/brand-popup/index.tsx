@@ -20,7 +20,9 @@ export const BrandPopup = (props: Iprops) => {
         </button>
         <h1 className={s.brandName}>{brand.name}</h1>
         <p className={s.brandDescription}>{description}</p>
-        <a href={brand.joorLink}>EXPLORE BRAND ON JOOR</a>
+        <a target="_blank" href={brand.joorLink}>
+          EXPLORE BRAND ON JOOR
+        </a>
       </div>
     </div>
   );

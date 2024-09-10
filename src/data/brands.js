@@ -5,12 +5,15 @@ import burc from "@a/images/brands/burc.webp";
 import celia from "@a/images/brands/celia.webp";
 import crasqi from "@a/images/brands/crasqi.webp";
 import esber from "@a/images/brands/esber.webp";
-import jacob from "@a/images/brands/jacob.webp";
+// import jacob from "@a/images/brands/jacob.webp";
 import monica from "@a/images/brands/monica.webp";
 import monot from "@a/images/brands/monot.webp";
 import nafsika from "@a/images/brands/nafsika.webp";
 import nawbar from "@a/images/brands/nawbar.webp";
 import salamoon from "@a/images/brands/salamoon.webp";
+import racil from "@a/images/brands/racil.jpg";
+import sophie1 from "@a/images/brands/sophie1.png";
+import sophie2 from "@a/images/brands/sophie2.png";
 
 const brands = [
   {
@@ -129,24 +132,24 @@ const brands = [
     description:
       "W.Salamoon & Sons is a family-owned high-end jewelry brand that offers both classic elegance and modern sophistication. With four generations of experience, they specialize in creating unique and exquisite pieces that showcase individuality and style.",
   },
-  // {
-  //   id: 14,
-  //   name: "Racil",
-  //   image: "",
-  //   category: "",
-  //   joorLink: "",
-  //   description:
-  //     "A London based tailoring brand, known for its unique detailing with a luxury quality product. The collections exude feminine sophistication with a touch of masculine edge, and teeter between the classic and the unexpected.",
-  // },
-  // {
-  //   id: 15,
-  //   name: "Sophie",
-  //   image: "",
-  //   category: "",
-  //   joorLink: "",
-  //   description:
-  //     " Sophie et Voilà, a Basque brand, has made its mark in the wedding dress market over the past decade. The brand offers timeless designs characterised by a mix of tradition and innovation.",
-  // },
+  {
+    id: 14,
+    name: "Racil",
+    image: racil,
+    category: "rtw",
+    joorLink: "https://www.jooraccess.com/sophieetvoila",
+    description:
+      "A London based tailoring brand, known for its unique detailing with a luxury quality product. The collections exude feminine sophistication with a touch of masculine edge, and teeter between the classic and the unexpected.",
+  },
+  {
+    id: 15,
+    name: "Sophie et Voilà",
+    image: sophie2,
+    category: "rtw",
+    joorLink: "https://www.jooraccess.com/sophieetvoila",
+    description:
+      " Sophie et Voilà, a Basque brand, has made its mark in the wedding dress market over the past decade. The brand offers timeless designs characterised by a mix of tradition and innovation.",
+  },
 ];
 
 export default brands;

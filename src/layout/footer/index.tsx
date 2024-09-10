@@ -45,22 +45,14 @@ const Footer = () => {
             </div>
           </li>
           <li className={s.footer_t_listItem}>
-            <h3>SUBSCRIBE</h3>
+            <h3>LOCATION</h3>
             <div>
-              <form
-                className={s.footer_form}
-                action="https://maisonpyramide.us15.list-manage.com/subscribe/post?u=c63c326f60b5a465903f3bf0c&amp;id=f4792e5b8d"
-                method="post"
+              <a
                 target="_blank"
-                noValidate
+                href="https://maps.app.goo.gl/Pyrw1M6vgz5VM1fP7"
               >
-                <input
-                  name="email"
-                  type="email"
-                  placeholder="Email"
-                  className={s.footer_input}
-                />
-              </form>
+                45, AVENUE MARCEAU 75116
+              </a>
             </div>
           </li>
         </ul>
