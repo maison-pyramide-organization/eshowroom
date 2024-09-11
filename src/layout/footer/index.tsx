@@ -51,12 +51,13 @@ const Footer = () => {
                 target="_blank"
                 href="https://maps.app.goo.gl/Pyrw1M6vgz5VM1fP7"
               >
-                45, AVENUE MARCEAU 75116
+                45, Avenue Marceau, 75116 Paris
               </a>
             </div>
           </li>
         </ul>
       </div>
+
       <div className={s.footer_b}>
         <div>
           <a

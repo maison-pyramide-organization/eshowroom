@@ -16,7 +16,7 @@ const Menu = () => {
         </li>
         <li>
           <a target="_blank" href="https://jooraccess.com/sign_in">
-            JOOR
+            login
           </a>
         </li>
       </ul>

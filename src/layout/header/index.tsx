@@ -33,7 +33,7 @@ const Header = () => {
 
         {/* NAV RIGHT */}
         <nav className={s.nav_r}>
-          <a href="https://jooraccess.com/sign_in">joor</a>
+          <a href="https://jooraccess.com/sign_in">login</a>
         </nav>
 
         {/* MENU ICON */}
