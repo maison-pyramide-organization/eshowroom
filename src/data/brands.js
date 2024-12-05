@@ -98,7 +98,7 @@ const brands = [
   },
   {
     id: 10,
-    name: "Monica Sordo",
+    name: "Sordo",
     image: monica,
     category: "rtw",
     joorLink: "https://www.jooraccess.com/monicasordo",
@@ -143,7 +143,8 @@ const brands = [
   },
   {
     id: 15,
-    name: "Sophie et Voilà",
+    // name: "Sophie et Voilà",
+    name: "SEV",
     image: sophie2,
     category: "rtw",
     joorLink: "https://www.jooraccess.com/sophieetvoila",
