@@ -125,7 +125,8 @@ const brands = [
   },
   {
     id: 13,
-    name: "W.Salamoon & Sons",
+    // name: "W.Salamoon & Sons",
+    name: "K Salamoon",
     image: salamoon,
     category: "jewelry",
     joorLink: "https://www.jooraccess.com/wsalamoon",
