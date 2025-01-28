@@ -12,7 +12,7 @@ const Footer = () => {
             <h3>CONTACT</h3>
             <div>
               <a href="tel:+33769170858" target="_blank">
-                +33 7 69 17 08 58
+                +33 7 58 47 42 20
               </a>
 
               <a href="mailto:showroom@maisonpyramide.com" target="_blank">
