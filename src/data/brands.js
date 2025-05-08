@@ -1,30 +1,15 @@
 import azzi from "@a/images/brands/azzi.webp";
-import ashaha from "@a/images/brands/ashaha.webp";
-import bougeussa from "@a/images/brands/bougeussa.webp";
 import burc from "@a/images/brands/burc.webp";
 import celia from "@a/images/brands/celia.webp";
-import crasqi from "@a/images/brands/crasqi.webp";
 import esber from "@a/images/brands/esber.webp";
-// import jacob from "@a/images/brands/jacob.webp";
 import monica from "@a/images/brands/monica.webp";
 import monot from "@a/images/brands/monot.webp";
 import nafsika from "@a/images/brands/nafsika.webp";
 import nawbar from "@a/images/brands/nawbar.webp";
 import salamoon from "@a/images/brands/salamoon.webp";
-import racil from "@a/images/brands/racil.jpg";
-import sophie1 from "@a/images/brands/sophie1.png";
-import sophie2 from "@a/images/brands/sophie2.png";
+import sev from "@a/images/brands/sev.webp";
 
 const brands = [
-  {
-    id: 1,
-    name: "ASHAHA",
-    image: ashaha,
-    category: "jewelry",
-    joorLink: "https://www.jooraccess.com/ashaha",
-    description:
-      "Ashaha plays on the duality of the modern craftsmanship and eastern heritage drawing on the energy of the stones and gems to introduce a contemporary fine jewelry.",
-  },
   {
     id: 2,
     name: "Azzi & Osta",
@@ -33,15 +18,6 @@ const brands = [
     joorLink: "https://www.jooraccess.com/azziandosta",
     description:
       "Azzi & Osta is known for their focus on ethics and sustainability and subscribes to slow fashion, producing high-quality garments that stand the test of time only on-demand, all in-house in their atelier in Beirut, therefore mitigating any surplus or waste.",
-  },
-  {
-    id: 3,
-    name: "Bouguessa",
-    image: bougeussa,
-    category: "rtw",
-    joorLink: "https://www.jooraccess.com/bouguessa",
-    description:
-      "Bouguessa is an esteemed and elegant tailoring brand, aims to offer a minimalist wardrobe focused on clean cuts and impeccable attention to detail, designed for strong and sophisticated women.",
   },
   {
     id: 4,
@@ -70,23 +46,6 @@ const brands = [
     description:
       "Christopher Esber has built a global reputation for contemporary tailoring with a sophisticated approach, in the mixing of traditional techniques and mastering a restrained method for cut-out-clad silhouettes. The collections radiate confidence and strength reflecting an unwavering quality and innovation in cut and developed textiles; with a luxurious yet easy to wear approach.",
   },
-  {
-    id: 7,
-    name: "Crasqi",
-    image: crasqi,
-    category: "rtw",
-    joorLink: "https://www.jooraccess.com/crasqui",
-    description:
-      "We transform plastic bottles into Ocean-inspired swim shorts designed and brought to life.",
-  },
-  // {
-  //   id: 8,
-  //   name: "Jacob Lee",
-  //   image: jacob,
-  //   category: "rtw",
-  //   joorLink: "https://www.jooraccess.com/jacoblee",
-  //   description: "",
-  // },
   {
     id: 9,
     name: "L'Atelier Nawbar",
@@ -125,7 +84,6 @@ const brands = [
   },
   {
     id: 13,
-    // name: "W.Salamoon & Sons",
     name: "K Salamoon",
     image: salamoon,
     category: "jewelry",
@@ -134,19 +92,10 @@ const brands = [
       "W.Salamoon & Sons is a family-owned high-end jewelry brand that offers both classic elegance and modern sophistication. With four generations of experience, they specialize in creating unique and exquisite pieces that showcase individuality and style.",
   },
   {
-    id: 14,
-    name: "Racil",
-    image: racil,
-    category: "rtw",
-    joorLink: "https://www.jooraccess.com/sophieetvoila",
-    description:
-      "A London based tailoring brand, known for its unique detailing with a luxury quality product. The collections exude feminine sophistication with a touch of masculine edge, and teeter between the classic and the unexpected.",
-  },
-  {
     id: 15,
     // name: "Sophie et Voilà",
     name: "SEV",
-    image: sophie2,
+    image: sev,
     category: "rtw",
     joorLink: "https://www.jooraccess.com/sophieetvoila",
     description:
