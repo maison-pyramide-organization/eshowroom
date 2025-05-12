@@ -8,6 +8,8 @@ import nafsika from "@a/images/brands/nafsika.webp";
 import nawbar from "@a/images/brands/nawbar.webp";
 import salamoon from "@a/images/brands/salamoon.webp";
 import sev from "@a/images/brands/sev.webp";
+import carolina from "@a/images/brands/carolina.webp";
+import gia from "@a/images/brands/gia.webp";
 
 const brands = [
   {
@@ -29,6 +31,15 @@ const brands = [
       "Burc Akyol started with the idea of exception. Exceptionally made clothing, in exceptional fabrics for exceptional moments. A close to couture experience for everyone which Akyol describes as New-Wave Mediterranean Glamour, a wardrobe for standing elegantly out and feeling sexy and confident.",
   },
   {
+    id: 17,
+    name: "carolina K",
+    image: carolina,
+    category: "rtw",
+    joorLink: "",
+    description:
+      "Carolina K emphasises sustainability by using eco-friendly materials and supporting ethical production through collaborations with global artisan communities. The brand offers a wide range of products spanning across fashion, swimwear, and home decor, all rooted in cultural appreciation and environmental responsibility.",
+  },
+  {
     id: 5,
     name: "Celia B",
     image: celia,
@@ -45,6 +56,15 @@ const brands = [
     joorLink: "https://www.jooraccess.com/christopheresber",
     description:
       "Christopher Esber has built a global reputation for contemporary tailoring with a sophisticated approach, in the mixing of traditional techniques and mastering a restrained method for cut-out-clad silhouettes. The collections radiate confidence and strength reflecting an unwavering quality and innovation in cut and developed textiles; with a luxurious yet easy to wear approach.",
+  },
+  {
+    id: 16,
+    name: "Gia borghini",
+    image: gia,
+    category: "rtw",
+    joorLink: "",
+    description:
+      "Gia Borghini is a luxury Italian footwear brand founded in 2016 by Barbara Borghini. Known for its sculptural designs and artisanal craftsmanship, the brand blends modern style with comfort.",
   },
   {
     id: 9,
@@ -99,7 +119,7 @@ const brands = [
     category: "rtw",
     joorLink: "https://www.jooraccess.com/sophieetvoila",
     description:
-      " Sophie et Voilà, a Basque brand, has made its mark in the wedding dress market over the past decade. The brand offers timeless designs characterised by a mix of tradition and innovation.",
+      "Sophie et Voilà, a Basque brand, has made its mark in the wedding dress market over the past decade. The brand offers timeless designs characterised by a mix of tradition and innovation.",
   },
 ];
 
