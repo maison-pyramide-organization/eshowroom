@@ -41,11 +41,10 @@
 }
 
 .logo {
-  width: 120px;
+  width: 160px;
 }
-.logo img {
-  width: 100%;
-  background-color: transparent;
+.logo .white path {
+  fill: white;
 }
 
 .nav_r {
@@ -59,4 +58,8 @@
   @media (--sm) {
     display: block;
   }
+}
+
+.closeIcon path {
+  fill: white;
 }

@@ -8,6 +8,8 @@ import { useEffect, useState } from "react";
 import CloseIcon from "@a/icons/close-icon.svg?react";
 // @ts-ignore
 import MenuIcon from "@a/icons/menu-icon.svg?react";
+// @ts-ignore
+import ESIcon from "@a/icons/logo.svg?react";
 
 const Header = () => {
   const { pathname } = useLocation();
@@ -28,7 +30,7 @@ const Header = () => {
 
         {/* LOGO */}
         <Link to="/" className={s.logo}>
-          <img src={mpLogo} alt="MP Logo" />
+          {menuOpened ? <ESIcon className={s.white} /> : <ESIcon />}
         </Link>
 
         {/* NAV RIGHT */}
@@ -38,7 +40,7 @@ const Header = () => {
 
         {/* MENU ICON */}
         <div className={s.menuIcon} onClick={handleIconClick}>
-          {menuOpened ? <CloseIcon /> : <MenuIcon />}
+          {menuOpened ? <CloseIcon className={s.closeIcon} /> : <MenuIcon />}
         </div>
       </div>
 

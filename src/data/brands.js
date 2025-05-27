@@ -3,7 +3,6 @@ import burc from "@a/images/brands/burc.webp";
 import celia from "@a/images/brands/celia.webp";
 import esber from "@a/images/brands/esber.webp";
 import monica from "@a/images/brands/monica.webp";
-import monot from "@a/images/brands/monot.webp";
 import nafsika from "@a/images/brands/nafsika.webp";
 import nawbar from "@a/images/brands/nawbar.webp";
 import salamoon from "@a/images/brands/salamoon.webp";
@@ -83,15 +82,6 @@ const brands = [
     joorLink: "https://www.jooraccess.com/monicasordo",
     description:
       "Monica Sordo is a line of collectable creations in fluid dialogue with design, artisanship and culture. Her creations are reminiscent of her Caribbean memories and deeply influenced by the minimalistic lines of her modern, Latin American heritage.",
-  },
-  {
-    id: 11,
-    name: "Mônot",
-    image: monot,
-    category: "rtw",
-    joorLink: "https://www.jooraccess.com/monot",
-    description:
-      "Inspired by the world of art and defined by intricate tailoring and craftsmanship, Mônot exudes maximal minimalism and the art of effortless elegance while being affordable. Mônot launched exclusively on Moda Operandi in SS20 and was later picked up by prestigious retailers such as Harvey Nichols UK, Luisa Via Roma and Browns. The brand was an instant Press and Celebrity favorite, spotted on Dua Lipa, JLo, Zendaya & Demi Moore and featured in Vogue US & WWD amongst many others.",
   },
   {
     id: 12,
