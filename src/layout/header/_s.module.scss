@@ -26,7 +26,7 @@
 .header nav {
   display: flex;
   align-items: center;
-  width: 152px;
+  width: 100%;
   gap: 40px;
   @media (--sm) {
     display: none;
@@ -35,12 +35,12 @@
 
 .header nav a {
   font-family: "Suisse";
-  font-weight: 500;
   font-size: 16px;
   text-transform: uppercase;
 }
 
 .logo {
+  flex-shrink: 0;
   width: 160px;
 }
 .logo .white path {

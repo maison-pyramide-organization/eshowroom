@@ -1,11 +1,15 @@
 import s from "./_s.module.scss";
-import brands from "@/data/brands.js";
 import BrandCard from "./components/brand-card";
 import { BrandPopup } from "./components/brand-popup";
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import getBrands from "./utils/getBrands.js";
 
 const Brands = () => {
   const [popupBrand, setPopupBrand] = useState(null);
+  const [searchParams] = useSearchParams();
+  const category = searchParams.get("category");
+  const brands = getBrands(category);
 
   const openBrandPopup = (brand) => {
     setPopupBrand(brand);

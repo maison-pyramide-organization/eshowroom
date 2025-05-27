@@ -23,17 +23,19 @@ const Header = () => {
     <header className={s.header}>
       <div className={s.header_w}>
         <nav>
-          <Link to="/brands">brands</Link>
-          <Link to="/edits">edits</Link>
+          <Link to="/brands?category=womenswear">womenswear</Link>
+          <Link to="/brands?category=accessories">accessories</Link>
+          <Link to="/brands">all</Link>
         </nav>
 
         {/* LOGO */}
         <Link to="/" className={s.logo}>
-        {menuOpened ? <ESIcon className={s.white}/> : <ESIcon/>}
+          {menuOpened ? <ESIcon className={s.white} /> : <ESIcon />}
         </Link>
 
         {/* NAV RIGHT */}
         <nav className={s.nav_r}>
+          <Link to="/edits">edits</Link>
           <a href="https://jooraccess.com/sign_in">login</a>
         </nav>
 
