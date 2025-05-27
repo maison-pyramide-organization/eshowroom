@@ -41,7 +41,10 @@
 
 .logo {
   flex-shrink: 0;
-  width: 160px;
+  width: 200px;
+  @media (--md) {
+    width: 160px;
+  }
 }
 .logo .white path {
   fill: white;
