@@ -1,7 +1,6 @@
 import s from "./_s.module.scss";
 import Menu from "./components/menu";
 import { Link, useLocation } from "react-router-dom";
-import mpLogo from "@a/images/MP-Logo.webp";
 import { useEffect, useState } from "react";
 
 // @ts-ignore
@@ -30,7 +29,7 @@ const Header = () => {
 
         {/* LOGO */}
         <Link to="/" className={s.logo}>
-          {menuOpened ? <ESIcon className={s.white} /> : <ESIcon />}
+        {menuOpened ? <ESIcon className={s.white}/> : <ESIcon/>}
         </Link>
 
         {/* NAV RIGHT */}
