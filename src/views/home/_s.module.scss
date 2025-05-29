@@ -82,10 +82,9 @@
 .about_item_title {
   font-size: 40px;
   font-family: Suisse;
-  font-weight: 500;
+  font-weight: bold;
+  line-height: 1;
   & span {
-    font-style: italic;
-    font-family: "GT Super Display";
     display: block;
     font-weight: 400;
   }
