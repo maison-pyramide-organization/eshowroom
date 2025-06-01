@@ -106,7 +106,7 @@ const brands = [
     // name: "Sophie et Voilà",
     name: "SEV",
     image: sev,
-    category: "accessories",
+    category: "womenswear",
     joorLink: "https://www.jooraccess.com/sophieetvoila",
     description:
       "Sophie et Voilà, a Basque brand, has made its mark in the wedding dress market over the past decade. The brand offers timeless designs characterised by a mix of tradition and innovation.",
