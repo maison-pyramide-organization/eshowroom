@@ -1,0 +1,37 @@
+@use "@s/base" as *;
+
+.filter {
+  width: 100%;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.categories-list {
+  display: flex;
+  gap: 8px;
+  overflow: auto;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.categories-list li {
+  padding: 8px 16px;
+  width: 100%;
+  min-width: 160px;
+  max-width: 200px;
+  text-align: center;
+  font-family: "Suisse";
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  &:global(.active) {
+    background-color: black;
+    color: white;
+  }
+  @media (--md) {
+    border: 1px solid transparent;
+    color: black;
+    background-color: initial;
+  }
+}

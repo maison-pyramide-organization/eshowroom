@@ -8,14 +8,14 @@ const Menu = () => {
         <li>
           <Link to={"/"}>HOME</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/brands?category=womenswear">WOMENSWEAR</Link>
         </li>
         <li>
           <Link to="/brands?category=accessories">ACCESSORIES</Link>
-        </li>
+        </li> */}
         <li>
-          <Link to="/brands">ALL BRANDS</Link>
+          <Link to="/brands">BRANDS</Link>
         </li>
         <li>
           <Link to={"/edits"}>EDITS</Link>

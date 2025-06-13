@@ -23,9 +23,10 @@ const Header = () => {
     <header className={s.header}>
       <div className={s.header_w}>
         <nav>
-          <Link to="/brands?category=womenswear">womenswear</Link>
-          <Link to="/brands?category=accessories">accessories</Link>
-          <Link to="/brands">all</Link>
+          {/* <Link to="/brands?category=womenswear">womenswear</Link>
+          <Link to="/brands?category=accessories">accessories</Link> */}
+          <Link to="/brands">Brands</Link>
+          <Link to="/edits">edits</Link>
         </nav>
 
         {/* LOGO */}
@@ -35,7 +36,6 @@ const Header = () => {
 
         {/* NAV RIGHT */}
         <nav className={s.nav_r}>
-          <Link to="/edits">edits</Link>
           <a href="https://jooraccess.com/sign_in">login</a>
         </nav>
 

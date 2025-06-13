@@ -4,6 +4,7 @@ import { BrandPopup } from "./components/brand-popup";
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import getBrands from "./utils/getBrands.js";
+import { Filter } from "./components/filter/index.js";
 
 const Brands = () => {
   const [popupBrand, setPopupBrand] = useState(null);
@@ -28,6 +29,7 @@ const Brands = () => {
         designers presentiong a fresh take on advanced contemporary womenswear,
         accessories, footwear and jewelry.
       </p>
+      <Filter category={category} />
 
       <ul className={s.brandsList}>
         {brands.map((brand) => (
