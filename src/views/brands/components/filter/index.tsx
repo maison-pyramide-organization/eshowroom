@@ -13,6 +13,9 @@ export const Filter = (props: Iprops) => {
         <li className={!category ? "active" : ""}>
           <Link to="/brands">ALL</Link>
         </li>
+        <li className={category == "menswear" ? "active" : ""}>
+          <Link to="/brands?category=menswear">MENSWEAR</Link>
+        </li>
         <li className={category == "womenswear" ? "active" : ""}>
           <Link to="/brands?category=womenswear">WOMENSWEAR</Link>
         </li>

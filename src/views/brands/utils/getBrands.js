@@ -4,7 +4,10 @@ const getBrands = (category) => {
   if (!category) {
     return brands;
   }
-  const filteredBrands = brands.filter((brand) => brand.category === category);
+  const filteredBrands = brands.filter((brand) =>
+    brand.category.includes(category)
+  );
+
   return filteredBrands;
 };
 

@@ -16,7 +16,6 @@
 }
 
 .categories-list li {
-  padding: 8px 16px;
   width: 100%;
   min-width: 160px;
   text-align: center;
@@ -25,12 +24,20 @@
   font-weight: 500;
   cursor: pointer;
   &:global(.active) {
-    background-color: black;
-    color: white;
+    & a {
+      border-bottom: 1px solid black;
+    }
   }
+
   @media (--md) {
     border: 1px solid transparent;
     color: black;
     background-color: initial;
   }
+}
+.categories-list a {
+  padding-bottom: 4px;
+  width: fit-content;
+  display: block;
+  margin-inline: auto;
 }
