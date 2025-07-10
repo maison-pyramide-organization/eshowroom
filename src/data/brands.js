@@ -120,7 +120,7 @@ const brands = [
     id: 12,
     name: "Nvl Garde",
     image: nvl,
-    category: ["menswear","womenswear","accessories"],
+    category: ["menswear", "womenswear", "accessories"],
     joorLink: "",
     description:
       "NVL GARDE Founded by Ben Taverniti, NVL-GARDE marks the evolution and unification of his creative vision, bringing together the men’s and women’s lines he originally developed under a single name. NVL-GARDE is more than a label; It is a cohesive representation of shared values and aesthetic principles, embodying authenticity, individuality, and intentionality.",
@@ -130,7 +130,9 @@ const brands = [
     name: "Caleb",
     image: caleb,
     category: ["menswear"],
-    joorLink: "",
+    buttonText: "EXPLORE BRAND ON LE NEW BLACK",
+    joorLink:
+      "https://www.lenewblack.com/caleb/wholesale/collection-65434/all/",
     description:
       "Caleb Paris is a contemporary ready-to-wear brand founded in 2022 by cousins Aaron Moyal and Samuel Milgrom. Drawing from their family’s fashion heritage, the brand blends vintage influences with modern urban aesthetics to create unisex, neo-nomadic styles. Their collections, crafted in France and Italy, emphasize upcycling, craftsmanship, and eco-responsibility",
   },
