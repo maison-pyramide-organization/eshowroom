@@ -11,7 +11,7 @@ const Footer = () => {
           <li className={s.footer_t_listItem}>
             <h3>CONTACT</h3>
             <div>
-              <a href="tel:+33769170858" target="_blank">
+              <a href="tel:+33758474220" target="_blank">
                 +33 7 58 47 42 20
               </a>
 
