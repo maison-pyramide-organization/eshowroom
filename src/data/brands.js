@@ -14,6 +14,8 @@ import drgn from "@a/images/brands/drgn.webp";
 import kml from "@a/images/brands/kml.webp";
 import mouty from "@a/images/brands/mouty.webp";
 import nvl from "@a/images/brands/nvl.webp";
+import fran from "@a/images/brands/fransceco.webp";
+import insit from "@a/images/brands/insitiution.webp";
 
 const brands = [
   {
@@ -162,6 +164,24 @@ const brands = [
     joorLink: "",
     description:
       "KML is a Saudi fashion brand founded in 2022 by siblings Ahmed and Razan Hassan, known for its minimalist designs and modern reinterpretation of traditional Saudi garments. The brand was recently named a semi-finalist for the 2025 LVMH Prize for Young Fashion Designers, along with winning the Menswear prize at the Saud Fashion Awards, highlighting its global recognition and innovative approach to menswear.",
+  },
+  {
+    id: 17,
+    name: "FRANCESCO MURANO",
+    image: fran,
+    category: ["womenswear"],
+    joorLink: "",
+    description:
+      "Italian fashion designer Francesco Murano, known for his sculptural and conceptually rich womenswear which harmoniously blends art with contemporary design. In 2019, his thesis collection earned him the Camera Della Moda Italiana Fashion Award. In 2024, his FW25 collection debuted at Milan Fashion Week, which lead him to be recognised to the Italian Fashion Trust Award in 2024. Following this, Murano Murano was celebrated as a finalist for LVMH 2025 award.",
+  },
+  {
+    id: 18,
+    name: "NSITIUTION ",
+    image: insit,
+    category: ["womenswear"],
+    joorLink: "",
+    description:
+      "Institution is a contemporary fashion label by designer Galib Gassanoff, blending modern silhouettes with artisanal craftsmanship and upcycled materials. Inspired by his Georgian and Azerbaijani heritage, the brand creates unique, statement pieces that merge cultural storytelling with innovative design.",
   },
 ];
 
