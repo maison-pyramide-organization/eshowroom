@@ -176,7 +176,7 @@ const brands = [
   },
   {
     id: 18,
-    name: "NSITIUTION ",
+    name: "INSITIUTION ",
     image: insit,
     category: ["womenswear"],
     joorLink: "",
