@@ -18,7 +18,7 @@ import fran from "@a/images/brands/fransceco.webp";
 import insit from "@a/images/brands/insitiution.webp";
 
 const brands = [
-  {
+  /*{
     id: 1,
     name: "Azzi & Osta",
     image: azzi,
@@ -26,7 +26,7 @@ const brands = [
     joorLink: "https://www.jooraccess.com/azziandosta",
     description:
       "Azzi & Osta is known for their focus on ethics and sustainability and subscribes to slow fashion, producing high-quality garments that stand the test of time only on-demand, all in-house in their atelier in Beirut, therefore mitigating any surplus or waste.",
-  },
+  },*/
   {
     id: 2,
     name: "BURC AKYOL",
