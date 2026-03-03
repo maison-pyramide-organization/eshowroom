@@ -27,6 +27,11 @@ const Home = () => {
     }
   });
 
+  const isPortrait =
+    typeof window !== "undefined"
+      ? window.innerHeight > window.innerWidth
+      : false;
+
   return (
     <>
       <div className={s.video_container}>
@@ -39,14 +44,8 @@ const Home = () => {
           muted={true}
           loop={true}
           playsInline={true}
-        >
-          <source
-            media="orientation: portrait"
-            src={VIDEO_PORTRAIT}
-            type="video/mp4"
-          />
-          <source src={VIDEO_LANDSCAPE} type="video/mp4" />
-        </video>
+          src={isPortrait ? VIDEO_PORTRAIT : VIDEO_LANDSCAPE}
+        ></video>
       </div>
 
       <section className={s.about_section}>
