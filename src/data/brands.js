@@ -33,15 +33,6 @@ import eera from "@a/images/brands/eera.png";
 // import monica from "@a/images/brands/monica.webp";
 
 const brands = [
-  /*{
-    id: 1,
-    name: "Azzi & Osta",
-    image: azzi,
-    category: ["rtw"],
-    joorLink: "https://www.jooraccess.com/azziandosta",
-    description:
-      "Azzi & Osta is known for their focus on ethics and sustainability and subscribes to slow fashion, producing high-quality garments that stand the test of time only on-demand, all in-house in their atelier in Beirut, therefore mitigating any surplus or waste.",
-  },*/
   {
     id: 2,
     name: "BURC AKYOL",
@@ -339,6 +330,15 @@ const brands = [
   //   description:
   //     "Monica Sordo is a line of collectable creations in fluid dialogue with design, artisanship and culture. Her creations are reminiscent of her Caribbean memories and deeply influenced by the minimalistic lines of her modern, Latin American heritage.",
   // },
+  // {
+  //   id: 1,
+  //   name: "Azzi & Osta",
+  //   image: azzi,
+  //   category: ["rtw"],
+  //   joorLink: "https://www.jooraccess.com/azziandosta",
+  //   description:
+  //     "Azzi & Osta is known for their focus on ethics and sustainability and subscribes to slow fashion, producing high-quality garments that stand the test of time only on-demand, all in-house in their atelier in Beirut, therefore mitigating any surplus or waste.",
+  //},
 ];
 
 export default brands;
