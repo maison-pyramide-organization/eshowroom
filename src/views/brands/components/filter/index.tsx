@@ -13,14 +13,14 @@ export const Filter = (props: Iprops) => {
         <li className={!category ? "active" : ""}>
           <Link to="/brands">ALL</Link>
         </li>
-        <li className={category == "womenswear" ? "active" : ""}>
-          <Link to="/brands?category=womenswear">WOMENSWEAR</Link>
+        <li className={category == "rtw" ? "active" : ""}>
+          <Link to="/brands?category=rtw">RTW</Link>
         </li>
-        <li className={category == "menswear" ? "active" : ""}>
-          <Link to="/brands?category=menswear">MENSWEAR</Link>
+        <li className={category == "jwl" ? "active" : ""}>
+          <Link to="/brands?category=jwl">JWL</Link>
         </li>
-        <li className={category == "accessories" ? "active" : ""}>
-          <Link to="/brands?category=accessories">ACCESSORIES</Link>
+        <li className={category == "ftw-acc" ? "active" : ""}>
+          <Link to="/brands?category=ftw-acc">FTW/ACC</Link>
         </li>
       </ul>
     </nav>
