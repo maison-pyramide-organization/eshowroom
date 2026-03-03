@@ -1,4 +1,3 @@
-import azzi from "@a/images/brands/azzi.webp";
 import burc from "@a/images/brands/burc.webp";
 import celia from "@a/images/brands/celia.webp";
 import esber from "@a/images/brands/esber.png";
@@ -29,11 +28,12 @@ import ysso from "@a/images/brands/ysso.png";
 import youmna from "@a/images/brands/youmna.png";
 import eera from "@a/images/brands/eera.png";
 
+// import azzi from "@a/images/brands/azzi.webp";
 // import insit from "@a/images/brands/insitiution.webp";
 // import monica from "@a/images/brands/monica.webp";
 
 const brands = [
-  {
+  /*{
     id: 1,
     name: "Azzi & Osta",
     image: azzi,
@@ -41,7 +41,7 @@ const brands = [
     joorLink: "https://www.jooraccess.com/azziandosta",
     description:
       "Azzi & Osta is known for their focus on ethics and sustainability and subscribes to slow fashion, producing high-quality garments that stand the test of time only on-demand, all in-house in their atelier in Beirut, therefore mitigating any surplus or waste.",
-  },
+  },*/
   {
     id: 2,
     name: "BURC AKYOL",
