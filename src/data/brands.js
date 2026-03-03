@@ -1,4 +1,4 @@
-import burc from "@a/images/brands/burc.webp";
+import burc from "@a/images/brands/burc.png";
 import celia from "@a/images/brands/celia.png";
 import esber from "@a/images/brands/esber.png";
 import nawbar from "@a/images/brands/nawbar.png";
