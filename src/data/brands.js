@@ -130,7 +130,7 @@ const brands = [
     category: ["rtw"],
     joorLink: "",
     description:
-      "VIVETTA is the Italian label founded by designer Vivetta Ponti, known for a romantic, playful universe where femininity meets wit. The brand is recognized for expressive details, imaginative motifs, and polished silhouettes that feel charming, distinctive, and unmistakably Italian in spirit.",
+      "Vivetta is a brand where craftsmanship meets visual culture and a unique aesthetic vision. Each collection is a study in contrasts: inspired by surrealism, touched with irony, and shaped by a distinctly modern perspective. Unexpected details turn every piece into a statement of personal style.",
   },
   {
     id: 13,
