@@ -17,7 +17,7 @@ import pedro from "@a/images/brands/pedro.webp";
 import project11 from "@a/images/brands/project11.webp";
 import rene from "@a/images/brands/rene.webp";
 import roksanda from "@a/images/brands/roksanda.webp";
-import yali from "@a/images/brands/roksanda.webp";
+import yali from "@a/images/brands/yali.webp";
 
 const brands = [
   {
@@ -136,15 +136,6 @@ const brands = [
     joorLink: "",
     description:
       "RENÈ is a genderless Copenhagen-based brand shaped by a cross-cultural dialogue between Scandinavian restraint and Eastern precision. Working with deadstock fabrics from Denmark, Italy and Japan, the brand creates sculptural garments with generous volumes, relaxed tailoring and a thoughtful approach to responsible production.",
-  },
-  {
-    id: 12,
-    name: "VIVETTA",
-    image: vivetta,
-    category: ["rtw"],
-    joorLink: "",
-    description:
-      "Vivetta is a brand where craftsmanship meets visual culture and a unique aesthetic vision. Each collection is a study in contrasts: inspired by surrealism, touched with irony, and shaped by a distinctly modern perspective. Unexpected details turn every piece into a statement of personal style.",
   },
   {
     id: 13,
