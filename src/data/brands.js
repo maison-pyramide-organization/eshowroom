@@ -2,7 +2,7 @@ import arrita from "@a/images/brands/arrita.jpg";
 import baro from "@a/images/brands/baro.jpg";
 import burc from "@a/images/brands/burc.jpg";
 import celia from "@a/images/brands/celia.jpg";
-import desa from "@a/images/brands/desa.jpg";
+// import desa from "@a/images/brands/desa.jpg";
 import eera from "@a/images/brands/eera.jpg";
 import esber from "@a/images/brands/esber.png";
 import ilio from "@a/images/brands/ilio.jpg";
@@ -132,6 +132,7 @@ const brands = [
     description:
       "Ilio Smeraldo is a Florence and Tuscany-made brand built around local artisan craftsmanship, using Italian leather and locally sourced materials. With a collaborative, creator-led identity, the brand blends heritage techniques with a modern, insider fashion point of view.",
   },
+  /*
   {
     id: 13,
     name: "1972 Desa",
@@ -141,12 +142,12 @@ const brands = [
     description:
       "Established in 2014, 1972 DESA is an Istanbul-based luxury leather label built on more than five decades of expertise from the Çelet family. Designed between Milan and Istanbul, its collections combine refined construction, contemporary volumes and exceptional leather craftsmanship with a precise, minimalist approach.",
   },
-
+  */
   {
     id: 14,
     name: "Arrita Studio",
     image: arrita,
-    category: ["ftw-acc"],
+    category: ["rtw"],
     joorLink: "",
     description:
       "Founded in 2022, Arrita Studio creates womenswear defined by thoughtful silhouettes, refined textures and understated femininity. With an emphasis on lasting quality over trends, the brand balances strength and softness through carefully sourced materials and a quiet, considered approach to contemporary dressing.",
@@ -155,7 +156,7 @@ const brands = [
     id: 15,
     name: "Baro Lucas",
     image: baro,
-    category: ["ftw-acc"],
+    category: ["rtw"],
     joorLink: "",
     description:
       "Founded by Álvaro Lucas in 2021, Baro Lucas is a Spanish fashion label based in Tordesillas, Valladolid. Rooted in tailoring and craftsmanship, the brand brings a contemporary perspective to luxury through precise construction, architectural silhouettes and an approach that finds distinction in simplicity.",
@@ -164,7 +165,7 @@ const brands = [
     id: 16,
     name: "Burc Akyol",
     image: burc,
-    category: ["ftw-acc"],
+    category: ["rtw"],
     joorLink: "",
     description:
       "Launched in Paris in 2019, Burc Akyol explores the tension between sensuality and austerity through a distinctly genderless approach to fashion. Developed in the designer’s Paris studio, its collections combine artisanal craftsmanship, refined materials and influences drawn from Akyol’s personal experiences and Ottoman heritage.",
@@ -173,7 +174,7 @@ const brands = [
     id: 17,
     name: "K salamoon",
     image: salamoon,
-    category: ["ftw-acc"],
+    category: ["jwl"],
     joorLink: "",
     description:
       "Led by Karole Salamoun, K Salamoon carries forward a family jewelry legacy dating back to 1907. Blending more than a century of savoir-faire with a contemporary and responsible approach, the house creates fine jewelry with a focus on craftsmanship, considered sourcing and enduring design.",
@@ -182,7 +183,7 @@ const brands = [
     id: 18,
     name: "Laquan Smith",
     image: laquan,
-    category: ["ftw-acc"],
+    category: ["rtw"],
     joorLink: "",
     description:
       "Founded by Queens-born designer LaQuan Smith, the New York label has become known for its bold, confident approach to luxury womenswear. Formally launched in 2013, the brand combines sculpted silhouettes and meticulous craftsmanship with an unapologetically glamorous sensibility, with its collections headquartered and manufactured in New York City.",
@@ -191,7 +192,7 @@ const brands = [
     id: 19,
     name: "Lehona",
     image: lehona,
-    category: ["ftw-acc"],
+    category: ["jwl"],
     joorLink: "",
     description:
       "LeHona is a jewelry brand built around the concept of “Jewellbeing,” connecting personal expression with a sense of identity and well-being. Its pieces are conceived as meaningful objects to wear and interact with, designed to reflect individual values and serve as reminders of authenticity and self-expression.",
@@ -200,7 +201,7 @@ const brands = [
     id: 20,
     name: "Levuma",
     image: levuma,
-    category: ["ftw-acc"],
+    category: ["jwl"],
     joorLink: "",
     description:
       "Rooted in a diamond heritage that began with the Khalil family in the 1930s, LEVUMA is an Antwerp-based high jewelry maison shaped by generations of expertise. The house combines traditional craftsmanship and exceptional stones with a contemporary approach to design, creating pieces defined by precision, artistry and enduring quality.",
@@ -209,7 +210,7 @@ const brands = [
     id: 21,
     name: "Okhtein",
     image: okhtein,
-    category: ["ftw-acc"],
+    category: ["jwl"],
     joorLink: "",
     description:
       "Founded by Egyptian sisters Aya and Mounaz Abdelraouf, OKHTEIN is a Cairo-rooted luxury house that brings together heritage, storytelling and craftsmanship. Drawing from art, history and cultural memory, the brand transforms Middle Eastern references into sculptural, handcrafted pieces through a refined contemporary lens.",
@@ -218,7 +219,7 @@ const brands = [
     id: 22,
     name: "Paris Georgia",
     image: paris,
-    category: ["ftw-acc"],
+    category: ["rtw"],
     joorLink: "",
     description:
       "Founded in 2015 by Paris Mitchell Temple and Georgia Cherrie, Paris Georgia is a New Zealand womenswear label known for its refined take on modern minimalism. Its collections celebrate the female form through sculpted silhouettes, subtle detailing and luxurious fabrics, balancing simplicity with a distinctly contemporary sensibility.",
