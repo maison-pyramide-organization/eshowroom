@@ -224,7 +224,7 @@ const brands = [
     description:
       "Founded in 2015 by Paris Mitchell Temple and Georgia Cherrie, Paris Georgia is a New Zealand womenswear label known for its refined take on modern minimalism. Its collections celebrate the female form through sculpted silhouettes, subtle detailing and luxurious fabrics, balancing simplicity with a distinctly contemporary sensibility.",
   },
-  {
+  /*{
     id: 23,
     name: "Rosantica",
     image: rosantica,
@@ -232,7 +232,7 @@ const brands = [
     joorLink: "",
     description:
       "Founded by Michela Panero in Milan in 2010, Rosantica creates jewelry, bags and accessories entirely handmade in Italy. Known for its expressive use of pearls, crystals, chains and precious materials, the brand combines traditional Italian craftsmanship with bold, decorative and often architectural design.",
-  },
+  },*/
   {
     id: 24,
     name: "Yasmin Mansour",
